@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paste long URL"
+        android:layout_marginTop="50dp"
+        android:id="@+id/urlLink"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shorten"
+        android:layout_marginTop="100dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/settingsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="SS.GY is a simple URL shortener built with privacy in mind. Personal information, such as your IP address and who clicks on the shared shortened URLs, is never tracked or logged. All shortened URLs are wiped after 30 days. This app is also open source, see the listing in the PlayStore for a link to the GitHub repository."
+        android:textAlignment="center"
+        android:layout_marginTop="250dp"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
